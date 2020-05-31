@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build_job:
-    runs-on: self-hosted  #运行环境
+    runs-on: self-hosted 
     name: build
     steps:
       # check out the repository
